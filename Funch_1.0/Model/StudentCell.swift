@@ -28,6 +28,11 @@ class StudentCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    func set(student: Student) {
+        studentImageView.image = student.image
+        studentNameLabel.text = student.name
+    }
+    
     
     func configureImageView() {
         studentImageView.layer.cornerRadius = 10

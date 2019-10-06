@@ -10,6 +10,6 @@ import UIKit
 
 struct Student {
     var image: UIImage
-    var title: String
+    var name: String
     
 }
